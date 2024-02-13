@@ -1,0 +1,11 @@
+<div class="container">
+    <span>
+      Will you be my Valentine??
+    </span>
+    <img src="https://media.tenor.com/x5mCUZFo-9sAAAAi/hello-kitty.gif" alt="">
+    <div class="buttons">
+      <button id="yes" [style.width]="yesButtonWidth + 'px'" [style.height]="yesButtonHeight + 'px'" (click)="handleYesClick()">Yes</button>
+      <button id="no" [style.width]="noButtonWidth + '%'" [style.font-size]="noButtonFontSize + 'px'" (click)="handleNoClick()">{{noButtonText}}</button>
+    </div>
+</div>
+  
